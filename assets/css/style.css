@@ -254,3 +254,32 @@ body {
         margin-left: 32px;
       }
     }
+
+    @media screen and (max-width: 640px) {
+      .main-section {
+        max-width: 575px;
+        margin-left: 32px;
+        margin-top: 50px;
+      }
+
+      .container{
+        position: static;
+      }
+
+      #logo {
+        position: relative;
+        left: 100px;
+      }
+
+      nav {
+        position: relative;
+       right: 150px;
+      }
+
+      /* fix header links */
+
+      .work {
+        width:80%;
+        margin-left: 50px;
+        }
+    }
