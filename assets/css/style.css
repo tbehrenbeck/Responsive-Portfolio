@@ -259,7 +259,16 @@ body {
       .main-section {
         max-width: 575px;
         margin-left: 32px;
-        margin-top: 50px;
+        padding-top: 0px;
+      }
+
+      #masthead {
+        position: sticky;
+        margin-bottom: 10px;
+      }
+
+      #main-container {
+        padding-top: 10px;
       }
 
       .container{
