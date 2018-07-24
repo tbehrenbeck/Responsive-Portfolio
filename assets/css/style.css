@@ -290,6 +290,7 @@ body {
       #logo {
         width: 640px;
         margin-left: 0px;
+        font-size: 30px;
       }
 
      nav {
@@ -298,4 +299,16 @@ body {
        margin-right: 0px;
      }
 
+     .auth-image {
+       width: 45%;
+       margin-left: 25%;
+       margin-bottom: 15px;
+     }
+
+     p {
+       clear: both;
+     }
     }
+
+
+    
